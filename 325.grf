@@ -1,0 +1,81 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = 0.603992259883892
+xMax = 1.60975212270968
+xTickUnit = 0.05
+xGridUnit = 0.05
+xLabel = v/v0
+yMin = -0.146096221905415
+yMax = 1.35485014297799
+yTickUnit = 0.1
+yGridUnit = 0.1
+yLabel = U/U0
+yAxisCross = 0.7
+AxesColor = clBlue
+GridColor = 0x00FF9999
+NumberFont = Times New Roman,20,clBlack
+LabelFont = Times New Roman,18,clBlack,B
+LegendFont = Times New Roman,26,clBlack
+ShowLegend = 1
+Radian = 1
+Title = Резонансные кривые в координатах v/v0: U/U0
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 5
+Style = 0
+LabelPosition = 1
+PointCount = 12
+Points = 0.998,0.9375;1.008,0.882;1.047,0.604;1.066,0.458;1.1,0.31;1.04,0.66;0.997,0.909;0.963,0.534;0.992,0.875;0.989,0.847;0.993,0.861;0.983,0.799;
+LegendText = R=0 Ω
+
+[PointSeries2]
+FillColor = clBlue
+LineColor = clBlue
+Size = 5
+Style = 3
+LabelPosition = 1
+PointCount = 8
+Points = 1.023,0.88;1.044,0.8;1.063,0.72;1.08,0.6;0.958,0.88;0.917,0.6;0.935,0.76;0.9,0.48;
+LegendText = R=100 Ω
+
+[PointSeries3]
+FillColor = clBlue
+LineColor = clBlue
+Size = 10
+Style = 2
+LabelPosition = 1
+PointCount = 1
+Points = 1,1;
+LegendText = Резонансная частота
+
+[Func1]
+FuncType = 0
+y = -48.33621661*x^2+96.32333186*x-47.0598334
+ShowInLegend = 0
+LegendText = f(x)=-48.3362*x^2+96.3233*x-47.0598; R²=0.9865
+Color = clBlue
+
+[Func2]
+FuncType = 0
+y = -70.69302404*x^2+142.15436832*x-70.6309602
+ShowInLegend = 0
+LegendText = f(x)=-70.693*x^2+142.1544*x-70.631; R²=0.7835
+Style = 1
+Color = clRed
+
+[Data]
+TextLabelCount = 0
+FuncCount = 2
+PointSeriesCount = 3
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
